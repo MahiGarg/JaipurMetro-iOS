@@ -26,8 +26,5 @@ class Utils {
     static let OneLink = "http://onelink.to/jaipurmetro"
     
     static let JaipurMetroWebsite = "http://www.jaipurmetrorail.in"    
-    
-    static let AppleStoreLink = "itms-apps://itunes.apple.com/us/app/fire-block/id1397044062"
-    static let iOSAppsLink = "itms-apps://itunes.apple.com/us/developer/mahi-garg/id1397044061"
-    static let AndroidAppsLink = "https://play.google.com/store/apps/developer?id=mahi+garg"
+
 }

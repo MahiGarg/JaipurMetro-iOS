@@ -16,16 +16,8 @@ class MoreViewController: UIViewController {
         super.viewDidLoad()
         
         initClickEvents()
-        
-        #if RELEASE
-        bannerAdView.adUnitID = "ca-app-pub-1093303282603666/5498938186"
-        #else
-        bannerAdView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        #endif
-        
-        bannerAdView.rootViewController = self
-        bannerAdView.load(GADRequest())
     }
+       
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -44,9 +36,6 @@ class MoreViewController: UIViewController {
         visitOfficialWebsiteGR.name = NAME_VISIT_OFFICIAL_WEBSITE
         visitOfficialWebsiteView.addGestureRecognizer(visitOfficialWebsiteGR)
         
-        let rateThisAppGR = UITapGestureRecognizer(target: self, action:  #selector (self.someAction (_:)))
-        rateThisAppGR.name = NAME_RATE_THIS_APP
-        rateThisAppView.addGestureRecognizer(rateThisAppGR)
         
         let shareThisAppGR = UITapGestureRecognizer(target: self, action:  #selector (self.someAction (_:)))
         shareThisAppGR.name = NAME_SHARE_THIS_APP
@@ -55,10 +44,6 @@ class MoreViewController: UIViewController {
         let giveFeedbackGR = UITapGestureRecognizer(target: self, action:  #selector (self.someAction (_:)))
         giveFeedbackGR.name = NAME_GIVE_FEEDBACK
         giveFeedbackView.addGestureRecognizer(giveFeedbackGR)
-        
-        let otheriOSAppsGR = UITapGestureRecognizer(target: self, action:  #selector (self.someAction (_:)))
-        otheriOSAppsGR.name = NAME_OTHER_IOS_APPS
-        otheriOSAppsView.addGestureRecognizer(otheriOSAppsGR)
         
 //        let checkAndroidAppsGR = UITapGestureRecognizer(target: self, action:  #selector (self.someAction (_:)))
 //        checkAndroidAppsGR.name = NAME_CHECK_ANDROID_APPS
@@ -82,13 +67,7 @@ class MoreViewController: UIViewController {
             UIApplication.shared.open(URL(string: Utils.JaipurMetroWebsite)!)
             break
             
-        case NAME_RATE_THIS_APP:
-            if #available( iOS 10.3,*){
-                SKStoreReviewController.requestReview()
-            } else {
-                UIApplication.shared.open(URL(string: Utils.AppleStoreLink)!)
-            }
-            break
+        
             
         case NAME_SHARE_THIS_APP:
             let sharingTitle = "Download Jaipur Metro app"
@@ -106,13 +85,7 @@ class MoreViewController: UIViewController {
             openMailApp()
             break
             
-        case NAME_OTHER_IOS_APPS:
-            UIApplication.shared.open(URL(string: Utils.iOSAppsLink)!)
-            break
-            
-        case NAME_CHECK_ANDROID_APPS:
-            UIApplication.shared.open(URL(string: Utils.AndroidAppsLink)!)
-            break
+        
             
         default:
             break
@@ -147,6 +120,6 @@ class MoreViewController: UIViewController {
     @IBOutlet weak var otheriOSAppsView: UIView!
     //@IBOutlet weak var checkAndroidAppsView: UIView!
    
-    @IBOutlet weak var bannerAdView: GADBannerView!
+    
     
 }

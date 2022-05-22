@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -1685,6 +1686,7 @@ Manu</string>
                                         <subviews>
                                             <label opaque="NO" contentMode="left" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgF-IH-mk1">
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="48"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="m7i-n7-Z4z"/>
                                                 </constraints>
@@ -1692,10 +1694,11 @@ Manu</string>
 Chandpole</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" red="0.08235294118" green="0.41176470590000003" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrk-gT-cVh">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="48"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="wYz-if-wpR"/>
                                                 </constraints>
@@ -1703,7 +1706,7 @@ Chandpole</string>
 Mansarovar</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
                                         </subviews>
                                         <constraints>
@@ -1836,10 +1839,10 @@ Mansarovar</string>
                                 <rect key="frame" x="0.0" y="44" width="375" height="574"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rud-uh-BR6" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="473"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="309"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WvT-hY-3yB" userLabel="ContainerStackView">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="473"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="309"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="79m-ud-B3u" userLabel="StationsOnMapsView">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
@@ -1922,48 +1925,8 @@ Mansarovar</string>
                                                             <constraint firstAttribute="trailing" secondItem="MuG-Te-3h8" secondAttribute="trailing" id="qFb-1o-puc"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1v-jm-qse" userLabel="RateThisAppView">
-                                                        <rect key="frame" x="0.0" y="114" width="375" height="57"/>
-                                                        <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_rating" translatesAutoresizingMaskIntoConstraints="NO" id="fW5-EN-PYC">
-                                                                <rect key="frame" x="16" y="8" width="40" height="40"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="40" id="8wB-k0-T3j"/>
-                                                                    <constraint firstAttribute="width" constant="40" id="uw5-e8-1Tj"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Rate this app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwN-X3-Y3y">
-                                                                <rect key="frame" x="72" y="8" width="287" height="40"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="40" id="uDn-Ks-a5e"/>
-                                                                </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKL-Is-dI4" userLabel="DividerView">
-                                                                <rect key="frame" x="16" y="56" width="359" height="1"/>
-                                                                <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="1" id="Mk5-i3-sqB"/>
-                                                                </constraints>
-                                                            </view>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstItem="AwN-X3-Y3y" firstAttribute="leading" secondItem="fW5-EN-PYC" secondAttribute="trailing" constant="16" id="CPe-ig-8jH"/>
-                                                            <constraint firstItem="KKL-Is-dI4" firstAttribute="leading" secondItem="S1v-jm-qse" secondAttribute="leading" constant="16" id="EMi-Jz-6gX"/>
-                                                            <constraint firstItem="fW5-EN-PYC" firstAttribute="top" secondItem="S1v-jm-qse" secondAttribute="top" constant="8" id="JeX-Ke-iAK"/>
-                                                            <constraint firstItem="KKL-Is-dI4" firstAttribute="top" secondItem="fW5-EN-PYC" secondAttribute="bottom" constant="8" id="Kh3-xV-3qB"/>
-                                                            <constraint firstAttribute="bottom" secondItem="KKL-Is-dI4" secondAttribute="bottom" id="Kld-Kd-PNk"/>
-                                                            <constraint firstAttribute="trailing" secondItem="AwN-X3-Y3y" secondAttribute="trailing" constant="16" id="QBV-Lh-Hva"/>
-                                                            <constraint firstItem="fW5-EN-PYC" firstAttribute="leading" secondItem="S1v-jm-qse" secondAttribute="leading" constant="16" id="eoo-vE-lqC"/>
-                                                            <constraint firstAttribute="trailing" secondItem="KKL-Is-dI4" secondAttribute="trailing" id="qDl-yg-EkH"/>
-                                                            <constraint firstItem="AwN-X3-Y3y" firstAttribute="top" secondItem="S1v-jm-qse" secondAttribute="top" constant="8" id="wZR-ze-Gcg"/>
-                                                        </constraints>
-                                                    </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vow-ya-XGX" userLabel="ShareThisAppView">
-                                                        <rect key="frame" x="0.0" y="171" width="375" height="57"/>
+                                                        <rect key="frame" x="0.0" y="114" width="375" height="57"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_sharing" translatesAutoresizingMaskIntoConstraints="NO" id="s0y-jq-HNu">
                                                                 <rect key="frame" x="16" y="8" width="40" height="40"/>
@@ -2002,12 +1965,8 @@ Mansarovar</string>
                                                             <constraint firstItem="s0y-jq-HNu" firstAttribute="top" secondItem="vow-ya-XGX" secondAttribute="top" constant="8" id="yvz-Z6-PyN"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Dk-gS-yxu" userLabel="BannerAdView" customClass="GADBannerView">
-                                                        <rect key="frame" x="0.0" y="228" width="375" height="50"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRt-f7-EuE" userLabel="GiveFeedbackView">
-                                                        <rect key="frame" x="0.0" y="278" width="375" height="57"/>
+                                                        <rect key="frame" x="0.0" y="171" width="375" height="57"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_feedback" translatesAutoresizingMaskIntoConstraints="NO" id="HWy-0p-Yxv">
                                                                 <rect key="frame" x="16" y="8" width="40" height="40"/>
@@ -2046,48 +2005,8 @@ Mansarovar</string>
                                                             <constraint firstItem="wJN-Mf-Y1Q" firstAttribute="leading" secondItem="HWy-0p-Yxv" secondAttribute="trailing" constant="16" id="rcN-qm-OLT"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J41-SD-qGC" userLabel="OtherAppleAppsView">
-                                                        <rect key="frame" x="0.0" y="335" width="375" height="57"/>
-                                                        <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_apple" translatesAutoresizingMaskIntoConstraints="NO" id="DQz-6T-buW">
-                                                                <rect key="frame" x="16" y="8" width="40" height="40"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="40" id="ENk-5A-GNR"/>
-                                                                    <constraint firstAttribute="width" constant="40" id="bxS-wj-rCp"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Try our other iOS games and apps" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB8-Ui-J8Y">
-                                                                <rect key="frame" x="72" y="4" width="287" height="48"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="mkD-my-Xuy"/>
-                                                                </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <color key="textColor" red="0.44705882349999998" green="0.44705882349999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKb-jV-JEe" userLabel="DividerView">
-                                                                <rect key="frame" x="16" y="56" width="359" height="1"/>
-                                                                <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="1" id="aT6-2A-Z5V"/>
-                                                                </constraints>
-                                                            </view>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstItem="DQz-6T-buW" firstAttribute="leading" secondItem="J41-SD-qGC" secondAttribute="leading" constant="16" id="Jqs-8o-14j"/>
-                                                            <constraint firstItem="DQz-6T-buW" firstAttribute="top" secondItem="J41-SD-qGC" secondAttribute="top" constant="8" id="WPV-Zj-VDU"/>
-                                                            <constraint firstItem="MKb-jV-JEe" firstAttribute="top" secondItem="DQz-6T-buW" secondAttribute="bottom" constant="8" id="dbs-aH-f6R"/>
-                                                            <constraint firstAttribute="trailing" secondItem="EB8-Ui-J8Y" secondAttribute="trailing" constant="16" id="ftK-GP-wzd"/>
-                                                            <constraint firstItem="EB8-Ui-J8Y" firstAttribute="leading" secondItem="DQz-6T-buW" secondAttribute="trailing" constant="16" id="j85-Zq-oa5"/>
-                                                            <constraint firstItem="MKb-jV-JEe" firstAttribute="leading" secondItem="J41-SD-qGC" secondAttribute="leading" constant="16" id="mjU-VC-Ecf"/>
-                                                            <constraint firstItem="EB8-Ui-J8Y" firstAttribute="top" secondItem="J41-SD-qGC" secondAttribute="top" constant="4" id="qCm-Ue-UEr"/>
-                                                            <constraint firstAttribute="trailing" secondItem="MKb-jV-JEe" secondAttribute="trailing" id="vHo-c0-Y2Q"/>
-                                                            <constraint firstAttribute="bottom" secondItem="MKb-jV-JEe" secondAttribute="bottom" id="ym6-qR-gwl"/>
-                                                        </constraints>
-                                                    </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCP-pq-pGZ" userLabel="LabelContainer">
-                                                        <rect key="frame" x="0.0" y="392" width="375" height="81"/>
+                                                        <rect key="frame" x="0.0" y="228" width="375" height="81"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with ❤️ in 🇮🇳" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgg-eE-g8l">
                                                                 <rect key="frame" x="0.0" y="24" width="375" height="33"/>
@@ -2159,10 +2078,7 @@ Mansarovar</string>
                     </view>
                     <navigationItem key="navigationItem" id="se6-mQ-Lqk"/>
                     <connections>
-                        <outlet property="bannerAdView" destination="4Dk-gS-yxu" id="p3q-K3-jQR"/>
                         <outlet property="giveFeedbackView" destination="aRt-f7-EuE" id="c5K-YV-EpB"/>
-                        <outlet property="otheriOSAppsView" destination="J41-SD-qGC" id="TgM-57-qUe"/>
-                        <outlet property="rateThisAppView" destination="S1v-jm-qse" id="3pj-rj-zuM"/>
                         <outlet property="shareThisAppView" destination="vow-ya-XGX" id="fdg-e2-dZK"/>
                         <outlet property="stationsOnMapView" destination="79m-ud-B3u" id="0xj-0k-Mj2"/>
                         <outlet property="visitOfficialWebsiteView" destination="8gO-xN-CTY" id="bDH-me-Bqg"/>
@@ -2364,7 +2280,6 @@ Mansarovar</string>
         </scene>
     </scenes>
     <resources>
-        <image name="ic_apple" width="32" height="32"/>
         <image name="ic_call" width="32" height="32"/>
         <image name="ic_email" width="32" height="32"/>
         <image name="ic_fares_default" width="25" height="25"/>
@@ -2376,7 +2291,6 @@ Mansarovar</string>
         <image name="ic_more_default" width="25" height="25"/>
         <image name="ic_more_selected" width="25" height="25"/>
         <image name="ic_officialwebsite" width="32" height="32"/>
-        <image name="ic_rating" width="32" height="32"/>
         <image name="ic_sharing" width="32" height="32"/>
         <image name="ic_station" width="32" height="32"/>
         <image name="ic_stationonmap" width="32" height="32"/>
@@ -2384,5 +2298,8 @@ Mansarovar</string>
         <image name="ic_trains_selected" width="25" height="25"/>
         <image name="ic_updates_default" width="25" height="25"/>
         <image name="ic_updates_selected" width="25" height="25"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
