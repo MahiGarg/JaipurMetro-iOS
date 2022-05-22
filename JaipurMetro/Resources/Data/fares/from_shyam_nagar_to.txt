@@ -1,0 +1,67 @@
+{
+  "StationFareModel": [
+    {
+      "DestinationStationName": "Mansarovar",
+      "Distance": "3.44 KM",
+      "TimeToTravel": "8 mins",
+      "StandardOffPeakFare": "Rs 11",
+      "StandardPeakFare": "Rs 17"
+    },
+    {
+      "DestinationStationName": "New Aatish Market",
+      "Distance": "1.99 KM",
+      "TimeToTravel": "5 mins",
+      "StandardOffPeakFare": "Rs 6",
+      "StandardPeakFare": "Rs 11"
+    },
+    {
+      "DestinationStationName": "Vivek Vihar",
+      "Distance": "0.88 KM",
+      "TimeToTravel": "2 mins",
+      "StandardOffPeakFare": "Rs 6",
+      "StandardPeakFare": "Rs 11"
+    },
+    {
+      "DestinationStationName": "Shyam Nagar",
+      "Distance": "0 KM",
+      "TimeToTravel": "0 min",
+      "StandardOffPeakFare": "Rs 6",
+      "StandardPeakFare": "Rs 11"
+    },
+    {
+      "DestinationStationName": "Ram Nagar",
+      "Distance": "0.75 KM",
+      "TimeToTravel": "2 mins",
+      "StandardOffPeakFare": "Rs 6",
+      "StandardPeakFare": "Rs 11"
+    },
+    {
+      "DestinationStationName": "Civil Lines",
+      "Distance": "1.85 KM",
+      "TimeToTravel": "5 mins",
+      "StandardOffPeakFare": "Rs 6",
+      "StandardPeakFare": "Rs 11"
+    },
+    {
+      "DestinationStationName": "Railway Station",
+      "Distance": "3.38 KM",
+      "TimeToTravel": "8 mins",
+      "StandardOffPeakFare": "Rs 11",
+      "StandardPeakFare": "Rs 17"
+    },
+    {
+      "DestinationStationName": "Sindhi Camp",
+      "Distance": "4.63 KM",
+      "TimeToTravel": "11 mins",
+      "StandardOffPeakFare": "Rs 11",
+      "StandardPeakFare": "Rs 17"
+    },
+    {
+      "DestinationStationName": "Chandpole",
+      "Distance": "5.42 KM",
+      "TimeToTravel": "14 mins",
+      "StandardOffPeakFare": "Rs 11",
+      "StandardPeakFare": "Rs 17"
+    }
+  ]
+}

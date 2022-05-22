@@ -1,0 +1,18 @@
+/* 
+  translations.strings
+  JaipurMetro
+
+  Created by mahi 
+  Copyright © 2022 mahi. All rights reserved.
+*/
+
+/* Stations */
+"mansarovar" = "Mansarovar";
+"new_aatish_market" = "New Aatish Market";
+"vivke_vihar" = "Vivek Vihar";
+"shyam_nagar" = "Shyam Nagar";
+"ram_nagar" = "Ram Nagar";
+"civil_lines" = "Civil Lines";
+"railway_station" = "Railway Station";
+"sindhi_camp" = "Sindhi Camp";
+"chandpole" = "Chandpole";

@@ -1,0 +1,293 @@
+{
+  "metro_stations": [
+    {
+      "station_name": "Mansarovar",
+      "status": "Elevated",
+      "station_latitude": "26.879512",
+      "station_longitude": "75.749981",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:25"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:00"
+      ],
+      "nearby_hospitals_list": [
+        "Metro Mas",
+        "Tagore",
+        "Asopa"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Om Hotel",
+        "Hotel Sidharth Residency"
+      ],
+      "nearby_others_list": [
+        "Ryan International School",
+        "Madhyam Marg Market"
+      ],
+      "nearby_police_station": "Mansarovar",
+      "ph_station_controller_no": "+91-141-5153751",
+      "ph_customer_care_no": "+91-141-5153771",
+      "ph_emergency_bsnl_no": "+91-141-2812970",
+      "mail_id": "msor.jmrc@gmail.com"
+    },
+    {
+      "station_name": "New Aatish Market",
+      "status": "Elevated",
+      "station_latitude": "26.880317",
+      "station_longitude": "75.764516",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:29",
+        "Towards Mansarovar: 06:49"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:03",
+        "Towards Mansarovar: 21:41"
+      ],
+      "nearby_hospitals_list": [
+        "Metro Mas",
+        "Tagore"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel Dev Vilas"
+      ],
+      "nearby_others_list": [
+        "Coaching Centers",
+        "New Aatish Market"
+      ],
+      "nearby_police_station": "Mansarovar",
+      "ph_station_controller_no": "+91-141-5153752",
+      "ph_customer_care_no": "+91-141-5153772",
+      "ph_emergency_bsnl_no": "+91-141-2299877",
+      "mail_id": "namt.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Vivek Vihar",
+      "status": "Elevated",
+      "station_latitude": "26.889102",
+      "station_longitude": "75.768550",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:33",
+        "Towards Mansarovar: 06:45"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:06",
+        "Towards Mansarovar: 21:38"
+      ],
+      "nearby_hospitals_list": [
+        "Sanjeevani",
+        "Manu"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel Laxmi Niwas"
+      ],
+      "nearby_others_list": [
+        "Mahatma Jyoti Rao Phoole College"
+      ],
+      "nearby_police_station": "Shyam Nagar",
+      "ph_station_controller_no": "+91-141-5153753",
+      "ph_customer_care_no": "+91-141-5153773",
+      "ph_emergency_bsnl_no": "+91-141-2296448",
+      "mail_id": "vkvr.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Shyam Nagar",
+      "status": "Elevated",
+      "station_latitude": "26.896423",
+      "station_longitude": "75.770621",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:35",
+        "Towards Mansarovar: 06:42"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:08",
+        "Towards Mansarovar: 21:36"
+      ],
+      "nearby_hospitals_list": [
+        "Sanjeevani",
+        "Manu",
+        "Sevayatan"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel Lazeez",
+        "Hotel Classic Holiday"
+      ],
+      "nearby_others_list": [
+        "Shyam Nagar Market"
+      ],
+      "nearby_police_station": "Shyam Nagar",
+      "ph_station_controller_no": "+91-141-5153754",
+      "ph_customer_care_no": "+91-141-5153774",
+      "ph_emergency_bsnl_no": "+91-141-2297870",
+      "mail_id": "smnr.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Ram Nagar",
+      "status": "Elevated",
+      "station_latitude": "26.902020",
+      "station_longitude": "75.774745",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:38",
+        "Towards Mansarovar: 06:40"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:10",
+        "Towards Mansarovar: 21:34"
+      ],
+      "nearby_hospitals_list": [
+        "Sanjeevani",
+        "Manu",
+        "Sevayatan",
+        "Sita Devi"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel Lazeez",
+        "Ginger Hotel"
+      ],
+      "nearby_others_list": [
+        ""
+      ],
+      "nearby_police_station": "Sodala",
+      "ph_station_controller_no": "+91-141-5153755",
+      "ph_customer_care_no": "+91-141-5153775",
+      "ph_emergency_bsnl_no": "+91-141-2292300",
+      "mail_id": "rmnr.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Civil Lines",
+      "status": "Elevated",
+      "station_latitude": "26.909600",
+      "station_longitude": "75.781307",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:41",
+        "Towards Mansarovar: 06:36"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:13",
+        "Towards Mansarovar: 21:31"
+      ],
+      "nearby_hospitals_list": [
+        "ESI",
+        "Heart & General"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel IBIS",
+        "Jai Mahal Hotel",
+        "Hari Mahal Palace",
+        "Hotel Heritage Inn"
+      ],
+      "nearby_others_list": [
+        "Orbit Mall",
+        "Anchor Mall",
+        "Baldev Plaza",
+        "Passport Office"
+      ],
+      "nearby_police_station": "Sodala",
+      "ph_station_controller_no": "+91-141-5153756",
+      "ph_customer_care_no": "+91-141-5153776",
+      "ph_emergency_bsnl_no": "+91-141-2222470",
+      "mail_id": "cljp.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Railway Station",
+      "status": "Elevated",
+      "station_latitude": "26.917918",
+      "station_longitude": "75.790142",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:46 ",
+        "Towards Mansarovar: 06:32"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:17",
+        "Towards Mansarovar: 21:28"
+      ],
+      "nearby_hospitals_list": [
+        "NW Railway"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Jaipur Club",
+        "Rajputana Sheraton",
+        "RTDC-Teej",
+        "RTDC-Swagatam",
+        "Country Inn"
+      ],
+      "nearby_others_list": [
+        "DRM Office",
+        "RTDC Head Quarter",
+        "Jal Bhawan",
+        "PWD Head Quarter",
+        "Jaipur Junction"
+      ],
+      "nearby_police_station": "Sodala",
+      "ph_station_controller_no": "+91-141-5153757",
+      "ph_customer_care_no": "+91-141-5153777",
+      "ph_emergency_bsnl_no": "+91-141-2222470",
+      "mail_id": "cljp.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Sindhi Camp",
+      "status": "Elevated",
+      "station_latitude": "26.922580",
+      "station_longitude": "75.799733",
+      "first_metro_train_timing": [
+        "Towards Chandpole: 06:50 ",
+        "Towards Mansarovar: 06:28"
+      ],
+      "last_metro_train_timing": [
+        "Towards Chandpole: 21:23",
+        "Towards Mansarovar: 21:23"
+      ],
+      "nearby_hospitals_list": [
+        "Zanana Hospital"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel Polo Victory",
+        "RTDC-Gangaur",
+        "Hotel Mansingh",
+        "Hotel Royal Orchid "
+      ],
+      "nearby_others_list": [
+        "Bus Stand",
+        "Ganpati Plaza",
+        "MI Road",
+        "Polo Victory Cinema"
+      ],
+      "nearby_police_station": "Sindhi Camp",
+      "ph_station_controller_no": "+91-141-5153758",
+      "ph_customer_care_no": "+91-141-5153778",
+      "ph_emergency_bsnl_no": "+91-141-2369959",
+      "mail_id": "sicp.jmrc@gmail.com"
+    },
+    {
+      "station_name": "Chandpole",
+      "status": "Underground",
+      "station_latitude": "26.926363",
+      "station_longitude": "75.807461",
+      "first_metro_train_timing": [
+        "Towards Mansarovar: 06:25"
+      ],
+      "last_metro_train_timing": [
+        "Towards Mansarovar: 21:20"
+      ],
+      "nearby_hospitals_list": [
+        "Zanana Hospital"
+      ],
+      "nearby_cafe_and_hotels_list": [
+        "Hotel Maharani Palace",
+        "Hotel Alsisar Haveli",
+        "Hotel Sikar Haveli",
+        "Hotel Laxmi Palace",
+        "Hotel Bissau Palace"
+      ],
+      "nearby_others_list": [
+        "Tripolia Bazar",
+        "Chandpole Bazar",
+        "Chhoti Choupar"
+      ],
+      "nearby_police_station": "Sanjay Circle",
+      "ph_station_controller_no": "+91-141-5153759",
+      "ph_customer_care_no": "+91-141-5153779",
+      "ph_emergency_bsnl_no": "+91-141-2363789",
+      "mail_id": "cdpe.jmrc@gmail.com"
+    }
+  ]
+}

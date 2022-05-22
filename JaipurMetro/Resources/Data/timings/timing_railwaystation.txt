@@ -1,0 +1,518 @@
+{
+  "train_timing": {
+    "towards_chandpole": [
+      {
+        "train_timing": "06:46"
+      },
+      {
+        "train_timing": "07:02"
+      },
+      {
+        "train_timing": "07:17"
+      },
+      {
+        "train_timing": "07:32"
+      },
+      {
+        "train_timing": "07:47"
+      },
+      {
+        "train_timing": "08:02"
+      },
+      {
+        "train_timing": "08:15"
+      },
+      {
+        "train_timing": "08:25"
+      },
+      {
+        "train_timing": "08:35"
+      },
+      {
+        "train_timing": "08:45"
+      },
+      {
+        "train_timing": "08:55"
+      },
+      {
+        "train_timing": "09:05"
+      },
+      {
+        "train_timing": "09:15"
+      },
+      {
+        "train_timing": "09:25"
+      },
+      {
+        "train_timing": "09:35"
+      },
+      {
+        "train_timing": "09:45"
+      },
+      {
+        "train_timing": "09:55"
+      },
+      {
+        "train_timing": "10:05"
+      },
+      {
+        "train_timing": "10:15"
+      },
+      {
+        "train_timing": "10:25"
+      },
+      {
+        "train_timing": "10:35"
+      },
+      {
+        "train_timing": "10:45"
+      },
+      {
+        "train_timing": "10:55"
+      },
+      {
+        "train_timing": "11:05"
+      },
+      {
+        "train_timing": "11:15"
+      },
+      {
+        "train_timing": "11:25"
+      },
+      {
+        "train_timing": "11:35"
+      },
+      {
+        "train_timing": "11:45"
+      },
+      {
+        "train_timing": "11:55"
+      },
+      {
+        "train_timing": "12:05"
+      },
+      {
+        "train_timing": "12:15"
+      },
+      {
+        "train_timing": "12:25"
+      },
+      {
+        "train_timing": "12:35"
+      },
+      {
+        "train_timing": "12:45"
+      },
+      {
+        "train_timing": "12:55"
+      },
+      {
+        "train_timing": "13:05"
+      },
+      {
+        "train_timing": "13:15"
+      },
+      {
+        "train_timing": "13:25"
+      },
+      {
+        "train_timing": "13:35"
+      },
+      {
+        "train_timing": "13:45"
+      },
+      {
+        "train_timing": "13:55"
+      },
+      {
+        "train_timing": "14:05"
+      },
+      {
+        "train_timing": "14:15"
+      },
+      {
+        "train_timing": "14:25"
+      },
+      {
+        "train_timing": "14:35"
+      },
+      {
+        "train_timing": "14:45"
+      },
+      {
+        "train_timing": "14:55"
+      },
+      {
+        "train_timing": "15:05"
+      },
+      {
+        "train_timing": "15:15"
+      },
+      {
+        "train_timing": "15:25"
+      },
+      {
+        "train_timing": "15:35"
+      },
+      {
+        "train_timing": "15:45"
+      },
+      {
+        "train_timing": "15:55"
+      },
+      {
+        "train_timing": "16:05"
+      },
+      {
+        "train_timing": "16:15"
+      },
+      {
+        "train_timing": "16:25"
+      },
+      {
+        "train_timing": "16:35"
+      },
+      {
+        "train_timing": "16:45"
+      },
+      {
+        "train_timing": "16:55"
+      },
+      {
+        "train_timing": "17:05"
+      },
+      {
+        "train_timing": "17:15"
+      },
+      {
+        "train_timing": "17:25"
+      },
+      {
+        "train_timing": "17:35"
+      },
+      {
+        "train_timing": "17:45"
+      },
+      {
+        "train_timing": "17:55"
+      },
+      {
+        "train_timing": "18:05"
+      },
+      {
+        "train_timing": "18:15"
+      },
+      {
+        "train_timing": "18:25"
+      },
+      {
+        "train_timing": "18:35"
+      },
+      {
+        "train_timing": "18:45"
+      },
+      {
+        "train_timing": "18:55"
+      },
+      {
+        "train_timing": "19:05"
+      },
+      {
+        "train_timing": "19:15"
+      },
+      {
+        "train_timing": "19:25"
+      },
+      {
+        "train_timing": "19:35"
+      },
+      {
+        "train_timing": "19:45"
+      },
+      {
+        "train_timing": "19:55"
+      },
+      {
+        "train_timing": "19:05"
+      },
+      {
+        "train_timing": "20:15"
+      },
+      {
+        "train_timing": "20:27"
+      },
+      {
+        "train_timing": "20:37"
+      },
+      {
+        "train_timing": "20:47"
+      },
+      {
+        "train_timing": "20:57"
+      },
+      {
+        "train_timing": "21:07"
+      },
+      {
+        "train_timing": "21:17"
+      }
+    ],
+    "towards_mansarovar": [
+      {
+        "train_timing": "06:32"
+      },
+      {
+        "train_timing": "07:06"
+      },
+      {
+        "train_timing": "07:21"
+      },
+      {
+        "train_timing": "07:36"
+      },
+      {
+        "train_timing": "07:51"
+      },
+      {
+        "train_timing": "08:05"
+      },
+      {
+        "train_timing": "08:20"
+      },
+      {
+        "train_timing": "08:31"
+      },
+      {
+        "train_timing": "08:41"
+      },
+      {
+        "train_timing": "08:51"
+      },
+      {
+        "train_timing": "09:01"
+      },
+      {
+        "train_timing": "09:11"
+      },
+      {
+        "train_timing": "09:21"
+      },
+      {
+        "train_timing": "09:31"
+      },
+      {
+        "train_timing": "09:41"
+      },
+      {
+        "train_timing": "09:51"
+      },
+      {
+        "train_timing": "10:01"
+      },
+      {
+        "train_timing": "10:11"
+      },
+      {
+        "train_timing": "10:21"
+      },
+      {
+        "train_timing": "10:31"
+      },
+      {
+        "train_timing": "10:41"
+      },
+      {
+        "train_timing": "10:51"
+      },
+      {
+        "train_timing": "11:01"
+      },
+      {
+        "train_timing": "11:11"
+      },
+      {
+        "train_timing": "11:21"
+      },
+      {
+        "train_timing": "11:31"
+      },
+      {
+        "train_timing": "11:41"
+      },
+      {
+        "train_timing": "11:51"
+      },
+      {
+        "train_timing": "12:01"
+      },
+      {
+        "train_timing": "12:11"
+      },
+      {
+        "train_timing": "12:21"
+      },
+      {
+        "train_timing": "12:31"
+      },
+      {
+        "train_timing": "12:41"
+      },
+      {
+        "train_timing": "12:51"
+      },
+      {
+        "train_timing": "13:01"
+      },
+      {
+        "train_timing": "13:11"
+      },
+      {
+        "train_timing": "13:21"
+      },
+      {
+        "train_timing": "13:31"
+      },
+      {
+        "train_timing": "13:41"
+      },
+      {
+        "train_timing": "13:51"
+      },
+      {
+        "train_timing": "14:01"
+      },
+      {
+        "train_timing": "14:11"
+      },
+      {
+        "train_timing": "14:21"
+      },
+      {
+        "train_timing": "14:31"
+      },
+      {
+        "train_timing": "14:41"
+      },
+      {
+        "train_timing": "14:51"
+      },
+      {
+        "train_timing": "15:01"
+      },
+      {
+        "train_timing": "15:11"
+      },
+      {
+        "train_timing": "15:21"
+      },
+      {
+        "train_timing": "15:31"
+      },
+      {
+        "train_timing": "15:41"
+      },
+      {
+        "train_timing": "15:51"
+      },
+      {
+        "train_timing": "16:01"
+      },
+      {
+        "train_timing": "16:11"
+      },
+      {
+        "train_timing": "16:21"
+      },
+      {
+        "train_timing": "16:31"
+      },
+      {
+        "train_timing": "16:41"
+      },
+      {
+        "train_timing": "16:51"
+      },
+      {
+        "train_timing": "17:01"
+      },
+      {
+        "train_timing": "17:11"
+      },
+      {
+        "train_timing": "17:21"
+      },
+      {
+        "train_timing": "17:31"
+      },
+      {
+        "train_timing": "17:41"
+      },
+      {
+        "train_timing": "17:51"
+      },
+      {
+        "train_timing": "18:01"
+      },
+      {
+        "train_timing": "18:11"
+      },
+      {
+        "train_timing": "18:21"
+      },
+      {
+        "train_timing": "18:31"
+      },
+      {
+        "train_timing": "18:41"
+      },
+      {
+        "train_timing": "18:51"
+      },
+      {
+        "train_timing": "19:01"
+      },
+      {
+        "train_timing": "19:11"
+      },
+      {
+        "train_timing": "19:21"
+      },
+      {
+        "train_timing": "19:31"
+      },
+      {
+        "train_timing": "19:41"
+      },
+      {
+        "train_timing": "19:51"
+      },
+      {
+        "train_timing": "20:01"
+      },
+      {
+        "train_timing": "20:13"
+      },
+      {
+        "train_timing": "20:23"
+      },
+      {
+        "train_timing": "20:33"
+      },
+      {
+        "train_timing": "20:43"
+      },
+      {
+        "train_timing": "20:53"
+      },
+      {
+        "train_timing": "21:03"
+      },
+      {
+        "train_timing": "21:13"
+      },
+      {
+        "train_timing": "21:28"
+      }
+    ]
+  }
+}

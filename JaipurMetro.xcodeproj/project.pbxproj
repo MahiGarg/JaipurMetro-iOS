@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005CA2D840B58B476F2C85CA /* Pods_JaipurMetro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1D34A4E244032AAF2D846C /* Pods_JaipurMetro.framework */; };
+		C0103C8421013142001003E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0103C8321013142001003E0 /* GoogleService-Info.plist */; };
+		C01E054020CBF503004A21E3 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E053D20CBF502004A21E3 /* Icon-80.png */; };
+		C01E054120CBF503004A21E3 /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E053E20CBF502004A21E3 /* Icon-180.png */; };
+		C01E054220CBF503004A21E3 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E053F20CBF503004A21E3 /* Icon-120.png */; };
+		C01E054620CBF57C004A21E3 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E054320CBF57B004A21E3 /* Icon-1024.png */; };
+		C01E054720CBF57C004A21E3 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E054420CBF57B004A21E3 /* Icon-76.png */; };
+		C01E054820CBF57C004A21E3 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E054520CBF57C004A21E3 /* Icon-152.png */; };
+		C01E054A20CBF645004A21E3 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = C01E054920CBF644004A21E3 /* Icon-167.png */; };
+		C01E056120CBF9DE004A21E3 /* timing_vivekvihar.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E054D20CBF9DE004A21E3 /* timing_vivekvihar.txt */; };
+		C01E056220CBF9DE004A21E3 /* timing_newaatishmarket.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E054E20CBF9DE004A21E3 /* timing_newaatishmarket.txt */; };
+		C01E056320CBF9DE004A21E3 /* timing_civillines.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E054F20CBF9DE004A21E3 /* timing_civillines.txt */; };
+		C01E056420CBF9DE004A21E3 /* timing_sindhicamp.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055020CBF9DE004A21E3 /* timing_sindhicamp.txt */; };
+		C01E056520CBF9DE004A21E3 /* timing_railwaystation.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055120CBF9DE004A21E3 /* timing_railwaystation.txt */; };
+		C01E056620CBF9DE004A21E3 /* timing_chandpole.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055220CBF9DE004A21E3 /* timing_chandpole.txt */; };
+		C01E056720CBF9DE004A21E3 /* timing_ramnagar.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055320CBF9DE004A21E3 /* timing_ramnagar.txt */; };
+		C01E056820CBF9DE004A21E3 /* timing_mansarovar.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055420CBF9DE004A21E3 /* timing_mansarovar.txt */; };
+		C01E056920CBF9DE004A21E3 /* timing_shyamnagar.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055520CBF9DE004A21E3 /* timing_shyamnagar.txt */; };
+		C01E056A20CBF9DE004A21E3 /* from_mansarovar_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055720CBF9DE004A21E3 /* from_mansarovar_to.txt */; };
+		C01E056B20CBF9DE004A21E3 /* from_shyam_nagar_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055820CBF9DE004A21E3 /* from_shyam_nagar_to.txt */; };
+		C01E056C20CBF9DE004A21E3 /* from_sindhi_camp_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055920CBF9DE004A21E3 /* from_sindhi_camp_to.txt */; };
+		C01E056D20CBF9DE004A21E3 /* from_ram_nagar_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055A20CBF9DE004A21E3 /* from_ram_nagar_to.txt */; };
+		C01E056E20CBF9DE004A21E3 /* from_chandpole_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055B20CBF9DE004A21E3 /* from_chandpole_to.txt */; };
+		C01E056F20CBF9DE004A21E3 /* from_civil_lines_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055C20CBF9DE004A21E3 /* from_civil_lines_to.txt */; };
+		C01E057020CBF9DE004A21E3 /* from_railway_station_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055D20CBF9DE004A21E3 /* from_railway_station_to.txt */; };
+		C01E057120CBF9DE004A21E3 /* from_new_aatish_market_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055E20CBF9DE004A21E3 /* from_new_aatish_market_to.txt */; };
+		C01E057220CBF9DE004A21E3 /* from_vivek_vihar_to.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E055F20CBF9DE004A21E3 /* from_vivek_vihar_to.txt */; };
+		C01E057320CBF9DE004A21E3 /* metro_stations.txt in Resources */ = {isa = PBXBuildFile; fileRef = C01E056020CBF9DE004A21E3 /* metro_stations.txt */; };
+		C023B4BF20E2C1E600C1D0DB /* translations.strings in Resources */ = {isa = PBXBuildFile; fileRef = C023B4BD20E2C1E600C1D0DB /* translations.strings */; };
+		C023B4C320E2C6CA00C1D0DB /* ic_station_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4C120E2C6C900C1D0DB /* ic_station_64.png */; };
+		C023B4C620E2C79F00C1D0DB /* ic_station_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4C520E2C79E00C1D0DB /* ic_station_128.png */; };
+		C023B50520E2C98E00C1D0DB /* ic_trains_default_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F120E2C98D00C1D0DB /* ic_trains_default_100.png */; };
+		C023B50620E2C98E00C1D0DB /* ic_update_default_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F220E2C98D00C1D0DB /* ic_update_default_100.png */; };
+		C023B50720E2C98E00C1D0DB /* ic_maps_default_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F320E2C98D00C1D0DB /* ic_maps_default_100.png */; };
+		C023B50820E2C98E00C1D0DB /* ic_more_default_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F420E2C98D00C1D0DB /* ic_more_default_50.png */; };
+		C023B50920E2C98E00C1D0DB /* ic_update_selected_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F520E2C98D00C1D0DB /* ic_update_selected_100.png */; };
+		C023B50A20E2C98E00C1D0DB /* ic_maps_selected_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F620E2C98D00C1D0DB /* ic_maps_selected_100.png */; };
+		C023B50B20E2C98E00C1D0DB /* ic_trains_default_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F720E2C98D00C1D0DB /* ic_trains_default_50.png */; };
+		C023B50C20E2C98E00C1D0DB /* ic_fares_default_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F820E2C98D00C1D0DB /* ic_fares_default_100.png */; };
+		C023B50D20E2C98E00C1D0DB /* ic_maps_default_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4F920E2C98D00C1D0DB /* ic_maps_default_50.png */; };
+		C023B50E20E2C98E00C1D0DB /* ic_more_selected_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4FA20E2C98D00C1D0DB /* ic_more_selected_50.png */; };
+		C023B50F20E2C98E00C1D0DB /* ic_fares_selected_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4FB20E2C98D00C1D0DB /* ic_fares_selected_100.png */; };
+		C023B51020E2C98E00C1D0DB /* ic_fares_selected_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4FC20E2C98D00C1D0DB /* ic_fares_selected_50.png */; };
+		C023B51120E2C98E00C1D0DB /* ic_more_default_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4FD20E2C98D00C1D0DB /* ic_more_default_100.png */; };
+		C023B51220E2C98E00C1D0DB /* ic_more_selected_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4FE20E2C98D00C1D0DB /* ic_more_selected_100.png */; };
+		C023B51320E2C98E00C1D0DB /* ic_trains_selected_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B4FF20E2C98D00C1D0DB /* ic_trains_selected_100.png */; };
+		C023B51420E2C98E00C1D0DB /* ic_update_default_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B50020E2C98D00C1D0DB /* ic_update_default_50.png */; };
+		C023B51520E2C98E00C1D0DB /* ic_update_selected_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B50120E2C98D00C1D0DB /* ic_update_selected_50.png */; };
+		C023B51620E2C98E00C1D0DB /* ic_fares_default_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B50220E2C98D00C1D0DB /* ic_fares_default_50.png */; };
+		C023B51720E2C98E00C1D0DB /* ic_trains_selected_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B50320E2C98D00C1D0DB /* ic_trains_selected_50.png */; };
+		C023B51820E2C98E00C1D0DB /* ic_maps_selected_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C023B50420E2C98D00C1D0DB /* ic_maps_selected_50.png */; };
+		C02BAA7620F610EE00E1BB85 /* ic_stationonmap_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7420F610EE00E1BB85 /* ic_stationonmap_64.png */; };
+		C02BAA7720F610EE00E1BB85 /* ic_stationonmap_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7520F610EE00E1BB85 /* ic_stationonmap_128.png */; };
+		C02BAA8020F61B6B00E1BB85 /* ic_website_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7820F61B6700E1BB85 /* ic_website_64.png */; };
+		C02BAA8120F61B6B00E1BB85 /* ic_share_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7920F61B6700E1BB85 /* ic_share_128.png */; };
+		C02BAA8420F61B6B00E1BB85 /* ic_apple_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7C20F61B6900E1BB85 /* ic_apple_64.png */; };
+		C02BAA8520F61B6B00E1BB85 /* ic_apple_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7D20F61B6900E1BB85 /* ic_apple_128.png */; };
+		C02BAA8620F61B6B00E1BB85 /* ic_share_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7E20F61B6A00E1BB85 /* ic_share_64.png */; };
+		C02BAA8720F61B6B00E1BB85 /* ic_website_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA7F20F61B6A00E1BB85 /* ic_website_128.png */; };
+		C02BAA8A20F61B8900E1BB85 /* ic_rating_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA8820F61B8800E1BB85 /* ic_rating_128.png */; };
+		C02BAA8B20F61B8900E1BB85 /* ic_rating_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA8920F61B8800E1BB85 /* ic_rating_64.png */; };
+		C02BAA8E20F61CCF00E1BB85 /* ic_feedback_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA8C20F61CCF00E1BB85 /* ic_feedback_64.png */; };
+		C02BAA8F20F61CCF00E1BB85 /* ic_feedback_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C02BAA8D20F61CCF00E1BB85 /* ic_feedback_128.png */; };
+		C02BAA9320F6A7E400E1BB85 /* StationLatLongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02BAA9220F6A7E400E1BB85 /* StationLatLongModel.swift */; };
+		C02BAA9620F6AE9200E1BB85 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02BAA9520F6AE9200E1BB85 /* MapKit.framework */; };
+		C0324C4B20E92DA000CB43C8 /* StationDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0324C4A20E92DA000CB43C8 /* StationDetailsRepository.swift */; };
+		C04B319A20E85F97000B0EDD /* ic_call_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B319620E85F96000B0EDD /* ic_call_128.png */; };
+		C04B319B20E85F97000B0EDD /* ic_call_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B319720E85F96000B0EDD /* ic_call_64.png */; };
+		C04B319C20E85F97000B0EDD /* ic_email_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B319820E85F97000B0EDD /* ic_email_128.png */; };
+		C04B319D20E85F97000B0EDD /* ic_email_64.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B319920E85F97000B0EDD /* ic_email_64.png */; };
+		C04B31A420E862B3000B0EDD /* ic_location_100.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B31A220E862B2000B0EDD /* ic_location_100.png */; };
+		C04B31A520E862B3000B0EDD /* ic_location_50.png in Resources */ = {isa = PBXBuildFile; fileRef = C04B31A320E862B2000B0EDD /* ic_location_50.png */; };
+		C04B31A720E87319000B0EDD /* MetroStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B31A620E87319000B0EDD /* MetroStationModel.swift */; };
+		C056016520D525980050C373 /* MetroStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C056016420D525980050C373 /* MetroStations.swift */; };
+		C056016820D530520050C373 /* StationsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C056016720D530520050C373 /* StationsAdapter.swift */; };
+		C07544A220BC76DA007FAEB8 /* metro_route_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C075449520BC76DA007FAEB8 /* metro_route_1x.png */; };
+		C07544A320BC76DA007FAEB8 /* metro_route_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C075449620BC76DA007FAEB8 /* metro_route_3x.png */; };
+		C07544A420BC76DA007FAEB8 /* metro_route_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C075449720BC76DA007FAEB8 /* metro_route_2x.png */; };
+		C07544A520BC76DA007FAEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C075449820BC76DA007FAEB8 /* Assets.xcassets */; };
+		C07544A620BC76DA007FAEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C075449920BC76DA007FAEB8 /* LaunchScreen.storyboard */; };
+		C07544A720BC76DA007FAEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C075449B20BC76DA007FAEB8 /* Main.storyboard */; };
+		C07544AA20BC76DA007FAEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07544A020BC76DA007FAEB8 /* AppDelegate.swift */; };
+		C095A6B120D5A6A100B47D80 /* StationFareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095A6B020D5A6A100B47D80 /* StationFareModel.swift */; };
+		C095A6B420D5A78000B47D80 /* FareDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095A6B320D5A78000B47D80 /* FareDetailsRepository.swift */; };
+		C0AABE3120FB87C6003DA062 /* NextTrainTimingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AABE3020FB87C6003DA062 /* NextTrainTimingsModel.swift */; };
+		C0AABE3420FB9D6B003DA062 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AABE3320FB9D6B003DA062 /* Time.swift */; };
+		C0CD6D9720ED2D7300C145CF /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD6D9620ED2D7300C145CF /* ImageScrollView.swift */; };
+		C0D8443C20EA982C00E43E3A /* TrainTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8443B20EA982C00E43E3A /* TrainTimeModel.swift */; };
+		C0D8443E20EA989900E43E3A /* MetroTimingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8443D20EA989900E43E3A /* MetroTimingsModel.swift */; };
+		C0D8444020EA9A2500E43E3A /* TrainTimingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8443F20EA9A2500E43E3A /* TrainTimingRepository.swift */; };
+		C0D8444320EAA36300E43E3A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8444220EAA36300E43E3A /* Utils.swift */; };
+		C0EEB27C20FA796F0017980F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEB27B20FA796F0017980F /* CoreLocation.framework */; };
+		C0EEB28620FAC40D0017980F /* StationsOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB27E20FAC40C0017980F /* StationsOnMapViewController.swift */; };
+		C0EEB28720FAC40D0017980F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB27F20FAC40C0017980F /* MoreViewController.swift */; };
+		C0EEB28820FAC40D0017980F /* MetroTimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB28020FAC40C0017980F /* MetroTimingsViewController.swift */; };
+		C0EEB28920FAC40D0017980F /* StationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB28120FAC40C0017980F /* StationDetailsViewController.swift */; };
+		C0EEB28A20FAC40D0017980F /* MetroRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB28220FAC40C0017980F /* MetroRouteViewController.swift */; };
+		C0EEB28B20FAC40D0017980F /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB28320FAC40C0017980F /* StationsViewController.swift */; };
+		C0EEB28C20FAC40D0017980F /* FaresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB28420FAC40C0017980F /* FaresViewController.swift */; };
+		C0EEB28D20FAC40D0017980F /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EEB28520FAC40C0017980F /* UpdatesViewController.swift */; };
+		C0FB307120FE8ED80002F646 /* NearestStationComparision.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB307020FE8ED80002F646 /* NearestStationComparision.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E1D34A4E244032AAF2D846C /* Pods_JaipurMetro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaipurMetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6D53F5CAD69508DE65AA1B /* Pods-JaipurMetro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaipurMetro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JaipurMetro/Pods-JaipurMetro.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA33AAC5148E74919B4A789 /* Pods-JaipurMetro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaipurMetro.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaipurMetro/Pods-JaipurMetro.release.xcconfig"; sourceTree = "<group>"; };
+		C0103C8321013142001003E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C01E053D20CBF502004A21E3 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		C01E053E20CBF502004A21E3 /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
+		C01E053F20CBF503004A21E3 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		C01E054320CBF57B004A21E3 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
+		C01E054420CBF57B004A21E3 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		C01E054520CBF57C004A21E3 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		C01E054920CBF644004A21E3 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		C01E054D20CBF9DE004A21E3 /* timing_vivekvihar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_vivekvihar.txt; sourceTree = "<group>"; };
+		C01E054E20CBF9DE004A21E3 /* timing_newaatishmarket.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_newaatishmarket.txt; sourceTree = "<group>"; };
+		C01E054F20CBF9DE004A21E3 /* timing_civillines.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_civillines.txt; sourceTree = "<group>"; };
+		C01E055020CBF9DE004A21E3 /* timing_sindhicamp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_sindhicamp.txt; sourceTree = "<group>"; };
+		C01E055120CBF9DE004A21E3 /* timing_railwaystation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_railwaystation.txt; sourceTree = "<group>"; };
+		C01E055220CBF9DE004A21E3 /* timing_chandpole.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_chandpole.txt; sourceTree = "<group>"; };
+		C01E055320CBF9DE004A21E3 /* timing_ramnagar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_ramnagar.txt; sourceTree = "<group>"; };
+		C01E055420CBF9DE004A21E3 /* timing_mansarovar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_mansarovar.txt; sourceTree = "<group>"; };
+		C01E055520CBF9DE004A21E3 /* timing_shyamnagar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = timing_shyamnagar.txt; sourceTree = "<group>"; };
+		C01E055720CBF9DE004A21E3 /* from_mansarovar_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_mansarovar_to.txt; sourceTree = "<group>"; };
+		C01E055820CBF9DE004A21E3 /* from_shyam_nagar_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_shyam_nagar_to.txt; sourceTree = "<group>"; };
+		C01E055920CBF9DE004A21E3 /* from_sindhi_camp_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_sindhi_camp_to.txt; sourceTree = "<group>"; };
+		C01E055A20CBF9DE004A21E3 /* from_ram_nagar_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_ram_nagar_to.txt; sourceTree = "<group>"; };
+		C01E055B20CBF9DE004A21E3 /* from_chandpole_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_chandpole_to.txt; sourceTree = "<group>"; };
+		C01E055C20CBF9DE004A21E3 /* from_civil_lines_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_civil_lines_to.txt; sourceTree = "<group>"; };
+		C01E055D20CBF9DE004A21E3 /* from_railway_station_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_railway_station_to.txt; sourceTree = "<group>"; };
+		C01E055E20CBF9DE004A21E3 /* from_new_aatish_market_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_new_aatish_market_to.txt; sourceTree = "<group>"; };
+		C01E055F20CBF9DE004A21E3 /* from_vivek_vihar_to.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = from_vivek_vihar_to.txt; sourceTree = "<group>"; };
+		C01E056020CBF9DE004A21E3 /* metro_stations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metro_stations.txt; sourceTree = "<group>"; };
+		C023B4C120E2C6C900C1D0DB /* ic_station_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_station_64.png; sourceTree = "<group>"; };
+		C023B4C520E2C79E00C1D0DB /* ic_station_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_station_128.png; sourceTree = "<group>"; };
+		C023B4F120E2C98D00C1D0DB /* ic_trains_default_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trains_default_100.png; sourceTree = "<group>"; };
+		C023B4F220E2C98D00C1D0DB /* ic_update_default_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_update_default_100.png; sourceTree = "<group>"; };
+		C023B4F320E2C98D00C1D0DB /* ic_maps_default_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_maps_default_100.png; sourceTree = "<group>"; };
+		C023B4F420E2C98D00C1D0DB /* ic_more_default_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_more_default_50.png; sourceTree = "<group>"; };
+		C023B4F520E2C98D00C1D0DB /* ic_update_selected_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_update_selected_100.png; sourceTree = "<group>"; };
+		C023B4F620E2C98D00C1D0DB /* ic_maps_selected_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_maps_selected_100.png; sourceTree = "<group>"; };
+		C023B4F720E2C98D00C1D0DB /* ic_trains_default_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trains_default_50.png; sourceTree = "<group>"; };
+		C023B4F820E2C98D00C1D0DB /* ic_fares_default_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fares_default_100.png; sourceTree = "<group>"; };
+		C023B4F920E2C98D00C1D0DB /* ic_maps_default_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_maps_default_50.png; sourceTree = "<group>"; };
+		C023B4FA20E2C98D00C1D0DB /* ic_more_selected_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_more_selected_50.png; sourceTree = "<group>"; };
+		C023B4FB20E2C98D00C1D0DB /* ic_fares_selected_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fares_selected_100.png; sourceTree = "<group>"; };
+		C023B4FC20E2C98D00C1D0DB /* ic_fares_selected_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fares_selected_50.png; sourceTree = "<group>"; };
+		C023B4FD20E2C98D00C1D0DB /* ic_more_default_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_more_default_100.png; sourceTree = "<group>"; };
+		C023B4FE20E2C98D00C1D0DB /* ic_more_selected_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_more_selected_100.png; sourceTree = "<group>"; };
+		C023B4FF20E2C98D00C1D0DB /* ic_trains_selected_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trains_selected_100.png; sourceTree = "<group>"; };
+		C023B50020E2C98D00C1D0DB /* ic_update_default_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_update_default_50.png; sourceTree = "<group>"; };
+		C023B50120E2C98D00C1D0DB /* ic_update_selected_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_update_selected_50.png; sourceTree = "<group>"; };
+		C023B50220E2C98D00C1D0DB /* ic_fares_default_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fares_default_50.png; sourceTree = "<group>"; };
+		C023B50320E2C98D00C1D0DB /* ic_trains_selected_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_trains_selected_50.png; sourceTree = "<group>"; };
+		C023B50420E2C98D00C1D0DB /* ic_maps_selected_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_maps_selected_50.png; sourceTree = "<group>"; };
+		C023B51920E2CA4C00C1D0DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/translations.strings; sourceTree = "<group>"; };
+		C02BAA7420F610EE00E1BB85 /* ic_stationonmap_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stationonmap_64.png; sourceTree = "<group>"; };
+		C02BAA7520F610EE00E1BB85 /* ic_stationonmap_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stationonmap_128.png; sourceTree = "<group>"; };
+		C02BAA7820F61B6700E1BB85 /* ic_website_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_website_64.png; sourceTree = "<group>"; };
+		C02BAA7920F61B6700E1BB85 /* ic_share_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_share_128.png; sourceTree = "<group>"; };
+		C02BAA7C20F61B6900E1BB85 /* ic_apple_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_apple_64.png; sourceTree = "<group>"; };
+		C02BAA7D20F61B6900E1BB85 /* ic_apple_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_apple_128.png; sourceTree = "<group>"; };
+		C02BAA7E20F61B6A00E1BB85 /* ic_share_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_share_64.png; sourceTree = "<group>"; };
+		C02BAA7F20F61B6A00E1BB85 /* ic_website_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_website_128.png; sourceTree = "<group>"; };
+		C02BAA8820F61B8800E1BB85 /* ic_rating_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_rating_128.png; sourceTree = "<group>"; };
+		C02BAA8920F61B8800E1BB85 /* ic_rating_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_rating_64.png; sourceTree = "<group>"; };
+		C02BAA8C20F61CCF00E1BB85 /* ic_feedback_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_feedback_64.png; sourceTree = "<group>"; };
+		C02BAA8D20F61CCF00E1BB85 /* ic_feedback_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_feedback_128.png; sourceTree = "<group>"; };
+		C02BAA9220F6A7E400E1BB85 /* StationLatLongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationLatLongModel.swift; sourceTree = "<group>"; };
+		C02BAA9520F6AE9200E1BB85 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C0324C4A20E92DA000CB43C8 /* StationDetailsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsRepository.swift; sourceTree = "<group>"; };
+		C035A0901FE72CF800355029 /* JaipurMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaipurMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04B319620E85F96000B0EDD /* ic_call_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call_128.png; sourceTree = "<group>"; };
+		C04B319720E85F96000B0EDD /* ic_call_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call_64.png; sourceTree = "<group>"; };
+		C04B319820E85F97000B0EDD /* ic_email_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_128.png; sourceTree = "<group>"; };
+		C04B319920E85F97000B0EDD /* ic_email_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_64.png; sourceTree = "<group>"; };
+		C04B31A220E862B2000B0EDD /* ic_location_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_location_100.png; sourceTree = "<group>"; };
+		C04B31A320E862B2000B0EDD /* ic_location_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_location_50.png; sourceTree = "<group>"; };
+		C04B31A620E87319000B0EDD /* MetroStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationModel.swift; sourceTree = "<group>"; };
+		C056016420D525980050C373 /* MetroStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStations.swift; sourceTree = "<group>"; };
+		C056016720D530520050C373 /* StationsAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsAdapter.swift; sourceTree = "<group>"; };
+		C075449520BC76DA007FAEB8 /* metro_route_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metro_route_1x.png; sourceTree = "<group>"; };
+		C075449620BC76DA007FAEB8 /* metro_route_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metro_route_3x.png; sourceTree = "<group>"; };
+		C075449720BC76DA007FAEB8 /* metro_route_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metro_route_2x.png; sourceTree = "<group>"; };
+		C075449820BC76DA007FAEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C075449A20BC76DA007FAEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C075449C20BC76DA007FAEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07544A020BC76DA007FAEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07544A120BC76DA007FAEB8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C095A6B020D5A6A100B47D80 /* StationFareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationFareModel.swift; sourceTree = "<group>"; };
+		C095A6B320D5A78000B47D80 /* FareDetailsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareDetailsRepository.swift; sourceTree = "<group>"; };
+		C0AABE3020FB87C6003DA062 /* NextTrainTimingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTrainTimingsModel.swift; sourceTree = "<group>"; };
+		C0AABE3320FB9D6B003DA062 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		C0CD6D9620ED2D7300C145CF /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		C0D8443B20EA982C00E43E3A /* TrainTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTimeModel.swift; sourceTree = "<group>"; };
+		C0D8443D20EA989900E43E3A /* MetroTimingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTimingsModel.swift; sourceTree = "<group>"; };
+		C0D8443F20EA9A2500E43E3A /* TrainTimingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTimingRepository.swift; sourceTree = "<group>"; };
+		C0D8444220EAA36300E43E3A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C0EEB27B20FA796F0017980F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C0EEB27E20FAC40C0017980F /* StationsOnMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsOnMapViewController.swift; sourceTree = "<group>"; };
+		C0EEB27F20FAC40C0017980F /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		C0EEB28020FAC40C0017980F /* MetroTimingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroTimingsViewController.swift; sourceTree = "<group>"; };
+		C0EEB28120FAC40C0017980F /* StationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationDetailsViewController.swift; sourceTree = "<group>"; };
+		C0EEB28220FAC40C0017980F /* MetroRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroRouteViewController.swift; sourceTree = "<group>"; };
+		C0EEB28320FAC40C0017980F /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		C0EEB28420FAC40C0017980F /* FaresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaresViewController.swift; sourceTree = "<group>"; };
+		C0EEB28520FAC40C0017980F /* UpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
+		C0FB307020FE8ED80002F646 /* NearestStationComparision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestStationComparision.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C035A08D1FE72CF800355029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EEB27C20FA796F0017980F /* CoreLocation.framework in Frameworks */,
+				C02BAA9620F6AE9200E1BB85 /* MapKit.framework in Frameworks */,
+				005CA2D840B58B476F2C85CA /* Pods_JaipurMetro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0515754074241972E8614866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E6D53F5CAD69508DE65AA1B /* Pods-JaipurMetro.debug.xcconfig */,
+				9AA33AAC5148E74919B4A789 /* Pods-JaipurMetro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C01E054B20CBF9DD004A21E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C01E054C20CBF9DE004A21E3 /* timings */,
+				C01E055620CBF9DE004A21E3 /* fares */,
+				C01E056020CBF9DE004A21E3 /* metro_stations.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C01E054C20CBF9DE004A21E3 /* timings */ = {
+			isa = PBXGroup;
+			children = (
+				C01E054D20CBF9DE004A21E3 /* timing_vivekvihar.txt */,
+				C01E054E20CBF9DE004A21E3 /* timing_newaatishmarket.txt */,
+				C01E054F20CBF9DE004A21E3 /* timing_civillines.txt */,
+				C01E055020CBF9DE004A21E3 /* timing_sindhicamp.txt */,
+				C01E055120CBF9DE004A21E3 /* timing_railwaystation.txt */,
+				C01E055220CBF9DE004A21E3 /* timing_chandpole.txt */,
+				C01E055320CBF9DE004A21E3 /* timing_ramnagar.txt */,
+				C01E055420CBF9DE004A21E3 /* timing_mansarovar.txt */,
+				C01E055520CBF9DE004A21E3 /* timing_shyamnagar.txt */,
+			);
+			path = timings;
+			sourceTree = "<group>";
+		};
+		C01E055620CBF9DE004A21E3 /* fares */ = {
+			isa = PBXGroup;
+			children = (
+				C01E055720CBF9DE004A21E3 /* from_mansarovar_to.txt */,
+				C01E055820CBF9DE004A21E3 /* from_shyam_nagar_to.txt */,
+				C01E055920CBF9DE004A21E3 /* from_sindhi_camp_to.txt */,
+				C01E055A20CBF9DE004A21E3 /* from_ram_nagar_to.txt */,
+				C01E055B20CBF9DE004A21E3 /* from_chandpole_to.txt */,
+				C01E055C20CBF9DE004A21E3 /* from_civil_lines_to.txt */,
+				C01E055D20CBF9DE004A21E3 /* from_railway_station_to.txt */,
+				C01E055E20CBF9DE004A21E3 /* from_new_aatish_market_to.txt */,
+				C01E055F20CBF9DE004A21E3 /* from_vivek_vihar_to.txt */,
+			);
+			path = fares;
+			sourceTree = "<group>";
+		};
+		C023B4B120E2B57F00C1D0DB /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				C023B4BD20E2C1E600C1D0DB /* translations.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		C023B4F020E2C98D00C1D0DB /* tabs_icons */ = {
+			isa = PBXGroup;
+			children = (
+				C04B31A320E862B2000B0EDD /* ic_location_50.png */,
+				C04B31A220E862B2000B0EDD /* ic_location_100.png */,
+				C023B50220E2C98D00C1D0DB /* ic_fares_default_50.png */,
+				C023B4F820E2C98D00C1D0DB /* ic_fares_default_100.png */,
+				C023B4FC20E2C98D00C1D0DB /* ic_fares_selected_50.png */,
+				C023B4FB20E2C98D00C1D0DB /* ic_fares_selected_100.png */,
+				C023B4F920E2C98D00C1D0DB /* ic_maps_default_50.png */,
+				C023B4F320E2C98D00C1D0DB /* ic_maps_default_100.png */,
+				C023B50420E2C98D00C1D0DB /* ic_maps_selected_50.png */,
+				C023B4F620E2C98D00C1D0DB /* ic_maps_selected_100.png */,
+				C023B4F420E2C98D00C1D0DB /* ic_more_default_50.png */,
+				C023B4FD20E2C98D00C1D0DB /* ic_more_default_100.png */,
+				C023B4FA20E2C98D00C1D0DB /* ic_more_selected_50.png */,
+				C023B4FE20E2C98D00C1D0DB /* ic_more_selected_100.png */,
+				C023B4F720E2C98D00C1D0DB /* ic_trains_default_50.png */,
+				C023B4F120E2C98D00C1D0DB /* ic_trains_default_100.png */,
+				C023B50320E2C98D00C1D0DB /* ic_trains_selected_50.png */,
+				C023B4FF20E2C98D00C1D0DB /* ic_trains_selected_100.png */,
+				C023B50020E2C98D00C1D0DB /* ic_update_default_50.png */,
+				C023B4F220E2C98D00C1D0DB /* ic_update_default_100.png */,
+				C023B50120E2C98D00C1D0DB /* ic_update_selected_50.png */,
+				C023B4F520E2C98D00C1D0DB /* ic_update_selected_100.png */,
+			);
+			path = tabs_icons;
+			sourceTree = "<group>";
+		};
+		C02BAA9420F6AE9200E1BB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEB27B20FA796F0017980F /* CoreLocation.framework */,
+				C02BAA9520F6AE9200E1BB85 /* MapKit.framework */,
+				2E1D34A4E244032AAF2D846C /* Pods_JaipurMetro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C035A0871FE72CF800355029 = {
+			isa = PBXGroup;
+			children = (
+				C075449220BC76DA007FAEB8 /* JaipurMetro */,
+				C035A0911FE72CF800355029 /* Products */,
+				C02BAA9420F6AE9200E1BB85 /* Frameworks */,
+				0515754074241972E8614866 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C035A0911FE72CF800355029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C035A0901FE72CF800355029 /* JaipurMetro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C056016020D5253E0050C373 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C0AABE3220FB9D58003DA062 /* helper */,
+				C056016620D530320050C373 /* adapters */,
+				C056016120D525580050C373 /* misc */,
+				C095A6AF20D5A68B00B47D80 /* models */,
+				C095A6B220D5A6DB00B47D80 /* repository */,
+				C0CD6D9520ED2D3300C145CF /* ui */,
+				C0EEB27D20FAC40C0017980F /* ViewControllers */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		C056016120D525580050C373 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				C056016420D525980050C373 /* MetroStations.swift */,
+				C0FB307020FE8ED80002F646 /* NearestStationComparision.swift */,
+				C0D8444220EAA36300E43E3A /* Utils.swift */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		C056016620D530320050C373 /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				C056016720D530520050C373 /* StationsAdapter.swift */,
+			);
+			path = adapters;
+			sourceTree = "<group>";
+		};
+		C075449220BC76DA007FAEB8 /* JaipurMetro */ = {
+			isa = PBXGroup;
+			children = (
+				C0103C8321013142001003E0 /* GoogleService-Info.plist */,
+				C056016020D5253E0050C373 /* Swift */,
+				C075449320BC76DA007FAEB8 /* Resources */,
+				C075449820BC76DA007FAEB8 /* Assets.xcassets */,
+				C075449920BC76DA007FAEB8 /* LaunchScreen.storyboard */,
+				C075449B20BC76DA007FAEB8 /* Main.storyboard */,
+				C07544A020BC76DA007FAEB8 /* AppDelegate.swift */,
+				C07544A120BC76DA007FAEB8 /* Info.plist */,
+			);
+			path = JaipurMetro;
+			sourceTree = "<group>";
+		};
+		C075449320BC76DA007FAEB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C023B4B120E2B57F00C1D0DB /* Translations */,
+				C01E054B20CBF9DD004A21E3 /* Data */,
+				C075449420BC76DA007FAEB8 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C075449420BC76DA007FAEB8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C023B4F020E2C98D00C1D0DB /* tabs_icons */,
+				C0E37DA020E15B7B00BADAAD /* icons */,
+				C01E054420CBF57B004A21E3 /* Icon-76.png */,
+				C01E053D20CBF502004A21E3 /* Icon-80.png */,
+				C01E053F20CBF503004A21E3 /* Icon-120.png */,
+				C01E054520CBF57C004A21E3 /* Icon-152.png */,
+				C01E054920CBF644004A21E3 /* Icon-167.png */,
+				C01E053E20CBF502004A21E3 /* Icon-180.png */,
+				C01E054320CBF57B004A21E3 /* Icon-1024.png */,
+				C075449520BC76DA007FAEB8 /* metro_route_1x.png */,
+				C075449720BC76DA007FAEB8 /* metro_route_2x.png */,
+				C075449620BC76DA007FAEB8 /* metro_route_3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C095A6AF20D5A68B00B47D80 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C095A6B020D5A6A100B47D80 /* StationFareModel.swift */,
+				C04B31A620E87319000B0EDD /* MetroStationModel.swift */,
+				C0D8443B20EA982C00E43E3A /* TrainTimeModel.swift */,
+				C0D8443D20EA989900E43E3A /* MetroTimingsModel.swift */,
+				C02BAA9220F6A7E400E1BB85 /* StationLatLongModel.swift */,
+				C0AABE3020FB87C6003DA062 /* NextTrainTimingsModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C095A6B220D5A6DB00B47D80 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				C095A6B320D5A78000B47D80 /* FareDetailsRepository.swift */,
+				C0324C4A20E92DA000CB43C8 /* StationDetailsRepository.swift */,
+				C0D8443F20EA9A2500E43E3A /* TrainTimingRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		C0AABE3220FB9D58003DA062 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0AABE3320FB9D6B003DA062 /* Time.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		C0CD6D9520ED2D3300C145CF /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD6D9620ED2D7300C145CF /* ImageScrollView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		C0E37DA020E15B7B00BADAAD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				C02BAA8C20F61CCF00E1BB85 /* ic_feedback_64.png */,
+				C02BAA8D20F61CCF00E1BB85 /* ic_feedback_128.png */,
+				C02BAA7C20F61B6900E1BB85 /* ic_apple_64.png */,
+				C02BAA7D20F61B6900E1BB85 /* ic_apple_128.png */,
+				C04B319720E85F96000B0EDD /* ic_call_64.png */,
+				C04B319620E85F96000B0EDD /* ic_call_128.png */,
+				C04B319920E85F97000B0EDD /* ic_email_64.png */,
+				C04B319820E85F97000B0EDD /* ic_email_128.png */,
+				C02BAA8920F61B8800E1BB85 /* ic_rating_64.png */,
+				C02BAA8820F61B8800E1BB85 /* ic_rating_128.png */,
+				C02BAA7E20F61B6A00E1BB85 /* ic_share_64.png */,
+				C02BAA7920F61B6700E1BB85 /* ic_share_128.png */,
+				C023B4C120E2C6C900C1D0DB /* ic_station_64.png */,
+				C023B4C520E2C79E00C1D0DB /* ic_station_128.png */,
+				C02BAA7420F610EE00E1BB85 /* ic_stationonmap_64.png */,
+				C02BAA7520F610EE00E1BB85 /* ic_stationonmap_128.png */,
+				C02BAA7820F61B6700E1BB85 /* ic_website_64.png */,
+				C02BAA7F20F61B6A00E1BB85 /* ic_website_128.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		C0EEB27D20FAC40C0017980F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEB28420FAC40C0017980F /* FaresViewController.swift */,
+				C0EEB28220FAC40C0017980F /* MetroRouteViewController.swift */,
+				C0EEB28020FAC40C0017980F /* MetroTimingsViewController.swift */,
+				C0EEB27F20FAC40C0017980F /* MoreViewController.swift */,
+				C0EEB28120FAC40C0017980F /* StationDetailsViewController.swift */,
+				C0EEB27E20FAC40C0017980F /* StationsOnMapViewController.swift */,
+				C0EEB28320FAC40C0017980F /* StationsViewController.swift */,
+				C0EEB28520FAC40C0017980F /* UpdatesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C035A08F1FE72CF800355029 /* JaipurMetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C035A0B81FE72CF900355029 /* Build configuration list for PBXNativeTarget "JaipurMetro" */;
+			buildPhases = (
+				6EF4EA020676634F1A916E05 /* [CP] Check Pods Manifest.lock */,
+				C035A08C1FE72CF800355029 /* Sources */,
+				C035A08D1FE72CF800355029 /* Frameworks */,
+				C035A08E1FE72CF800355029 /* Resources */,
+				AECF7943A286AFDD968DA48F /* [CP] Embed Pods Frameworks */,
+				C0F84A21210278330083C3D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaipurMetro;
+			productName = "Jaipur Metro";
+			productReference = C035A0901FE72CF800355029 /* JaipurMetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C035A0881FE72CF800355029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Suneet;
+				TargetAttributes = {
+					C035A08F1FE72CF800355029 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C035A08B1FE72CF800355029 /* Build configuration list for PBXProject "JaipurMetro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C035A0871FE72CF800355029;
+			productRefGroup = C035A0911FE72CF800355029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C035A08F1FE72CF800355029 /* JaipurMetro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C035A08E1FE72CF800355029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C023B50C20E2C98E00C1D0DB /* ic_fares_default_100.png in Resources */,
+				C02BAA8120F61B6B00E1BB85 /* ic_share_128.png in Resources */,
+				C02BAA8F20F61CCF00E1BB85 /* ic_feedback_128.png in Resources */,
+				C02BAA8520F61B6B00E1BB85 /* ic_apple_128.png in Resources */,
+				C01E054020CBF503004A21E3 /* Icon-80.png in Resources */,
+				C01E054820CBF57C004A21E3 /* Icon-152.png in Resources */,
+				C04B319A20E85F97000B0EDD /* ic_call_128.png in Resources */,
+				C02BAA8A20F61B8900E1BB85 /* ic_rating_128.png in Resources */,
+				C023B50820E2C98E00C1D0DB /* ic_more_default_50.png in Resources */,
+				C04B319B20E85F97000B0EDD /* ic_call_64.png in Resources */,
+				C01E056D20CBF9DE004A21E3 /* from_ram_nagar_to.txt in Resources */,
+				C023B50E20E2C98E00C1D0DB /* ic_more_selected_50.png in Resources */,
+				C023B51720E2C98E00C1D0DB /* ic_trains_selected_50.png in Resources */,
+				C01E056420CBF9DE004A21E3 /* timing_sindhicamp.txt in Resources */,
+				C01E056520CBF9DE004A21E3 /* timing_railwaystation.txt in Resources */,
+				C01E054620CBF57C004A21E3 /* Icon-1024.png in Resources */,
+				C01E056C20CBF9DE004A21E3 /* from_sindhi_camp_to.txt in Resources */,
+				C01E056920CBF9DE004A21E3 /* timing_shyamnagar.txt in Resources */,
+				C023B4BF20E2C1E600C1D0DB /* translations.strings in Resources */,
+				C023B51120E2C98E00C1D0DB /* ic_more_default_100.png in Resources */,
+				C01E056120CBF9DE004A21E3 /* timing_vivekvihar.txt in Resources */,
+				C023B51020E2C98E00C1D0DB /* ic_fares_selected_50.png in Resources */,
+				C04B31A520E862B3000B0EDD /* ic_location_50.png in Resources */,
+				C04B319C20E85F97000B0EDD /* ic_email_128.png in Resources */,
+				C023B50720E2C98E00C1D0DB /* ic_maps_default_100.png in Resources */,
+				C023B50D20E2C98E00C1D0DB /* ic_maps_default_50.png in Resources */,
+				C01E054A20CBF645004A21E3 /* Icon-167.png in Resources */,
+				C023B50F20E2C98E00C1D0DB /* ic_fares_selected_100.png in Resources */,
+				C07544A320BC76DA007FAEB8 /* metro_route_3x.png in Resources */,
+				C023B50520E2C98E00C1D0DB /* ic_trains_default_100.png in Resources */,
+				C01E056820CBF9DE004A21E3 /* timing_mansarovar.txt in Resources */,
+				C023B51820E2C98E00C1D0DB /* ic_maps_selected_50.png in Resources */,
+				C023B50A20E2C98E00C1D0DB /* ic_maps_selected_100.png in Resources */,
+				C07544A420BC76DA007FAEB8 /* metro_route_2x.png in Resources */,
+				C01E056720CBF9DE004A21E3 /* timing_ramnagar.txt in Resources */,
+				C07544A520BC76DA007FAEB8 /* Assets.xcassets in Resources */,
+				C07544A720BC76DA007FAEB8 /* Main.storyboard in Resources */,
+				C023B51320E2C98E00C1D0DB /* ic_trains_selected_100.png in Resources */,
+				C023B50620E2C98E00C1D0DB /* ic_update_default_100.png in Resources */,
+				C02BAA8720F61B6B00E1BB85 /* ic_website_128.png in Resources */,
+				C01E054720CBF57C004A21E3 /* Icon-76.png in Resources */,
+				C023B50B20E2C98E00C1D0DB /* ic_trains_default_50.png in Resources */,
+				C02BAA8420F61B6B00E1BB85 /* ic_apple_64.png in Resources */,
+				C04B319D20E85F97000B0EDD /* ic_email_64.png in Resources */,
+				C02BAA7620F610EE00E1BB85 /* ic_stationonmap_64.png in Resources */,
+				C01E056620CBF9DE004A21E3 /* timing_chandpole.txt in Resources */,
+				C01E057120CBF9DE004A21E3 /* from_new_aatish_market_to.txt in Resources */,
+				C0103C8421013142001003E0 /* GoogleService-Info.plist in Resources */,
+				C04B31A420E862B3000B0EDD /* ic_location_100.png in Resources */,
+				C023B4C620E2C79F00C1D0DB /* ic_station_128.png in Resources */,
+				C02BAA8020F61B6B00E1BB85 /* ic_website_64.png in Resources */,
+				C07544A620BC76DA007FAEB8 /* LaunchScreen.storyboard in Resources */,
+				C01E054120CBF503004A21E3 /* Icon-180.png in Resources */,
+				C02BAA8620F61B6B00E1BB85 /* ic_share_64.png in Resources */,
+				C023B50920E2C98E00C1D0DB /* ic_update_selected_100.png in Resources */,
+				C01E056320CBF9DE004A21E3 /* timing_civillines.txt in Resources */,
+				C01E056220CBF9DE004A21E3 /* timing_newaatishmarket.txt in Resources */,
+				C02BAA7720F610EE00E1BB85 /* ic_stationonmap_128.png in Resources */,
+				C01E056B20CBF9DE004A21E3 /* from_shyam_nagar_to.txt in Resources */,
+				C01E057220CBF9DE004A21E3 /* from_vivek_vihar_to.txt in Resources */,
+				C023B51220E2C98E00C1D0DB /* ic_more_selected_100.png in Resources */,
+				C01E057020CBF9DE004A21E3 /* from_railway_station_to.txt in Resources */,
+				C023B51620E2C98E00C1D0DB /* ic_fares_default_50.png in Resources */,
+				C01E056A20CBF9DE004A21E3 /* from_mansarovar_to.txt in Resources */,
+				C01E057320CBF9DE004A21E3 /* metro_stations.txt in Resources */,
+				C02BAA8B20F61B8900E1BB85 /* ic_rating_64.png in Resources */,
+				C023B51420E2C98E00C1D0DB /* ic_update_default_50.png in Resources */,
+				C01E054220CBF503004A21E3 /* Icon-120.png in Resources */,
+				C02BAA8E20F61CCF00E1BB85 /* ic_feedback_64.png in Resources */,
+				C01E056E20CBF9DE004A21E3 /* from_chandpole_to.txt in Resources */,
+				C023B4C320E2C6CA00C1D0DB /* ic_station_64.png in Resources */,
+				C07544A220BC76DA007FAEB8 /* metro_route_1x.png in Resources */,
+				C023B51520E2C98E00C1D0DB /* ic_update_selected_50.png in Resources */,
+				C01E056F20CBF9DE004A21E3 /* from_civil_lines_to.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EF4EA020676634F1A916E05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JaipurMetro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AECF7943A286AFDD968DA48F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JaipurMetro/Pods-JaipurMetro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JaipurMetro/Pods-JaipurMetro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F84A21210278330083C3D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C035A08C1FE72CF800355029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EEB28720FAC40D0017980F /* MoreViewController.swift in Sources */,
+				C0D8443E20EA989900E43E3A /* MetroTimingsModel.swift in Sources */,
+				C0EEB28D20FAC40D0017980F /* UpdatesViewController.swift in Sources */,
+				C07544AA20BC76DA007FAEB8 /* AppDelegate.swift in Sources */,
+				C0EEB28920FAC40D0017980F /* StationDetailsViewController.swift in Sources */,
+				C0AABE3120FB87C6003DA062 /* NextTrainTimingsModel.swift in Sources */,
+				C0EEB28C20FAC40D0017980F /* FaresViewController.swift in Sources */,
+				C095A6B420D5A78000B47D80 /* FareDetailsRepository.swift in Sources */,
+				C04B31A720E87319000B0EDD /* MetroStationModel.swift in Sources */,
+				C095A6B120D5A6A100B47D80 /* StationFareModel.swift in Sources */,
+				C0FB307120FE8ED80002F646 /* NearestStationComparision.swift in Sources */,
+				C056016820D530520050C373 /* StationsAdapter.swift in Sources */,
+				C02BAA9320F6A7E400E1BB85 /* StationLatLongModel.swift in Sources */,
+				C0EEB28820FAC40D0017980F /* MetroTimingsViewController.swift in Sources */,
+				C0D8444020EA9A2500E43E3A /* TrainTimingRepository.swift in Sources */,
+				C0D8443C20EA982C00E43E3A /* TrainTimeModel.swift in Sources */,
+				C0324C4B20E92DA000CB43C8 /* StationDetailsRepository.swift in Sources */,
+				C0CD6D9720ED2D7300C145CF /* ImageScrollView.swift in Sources */,
+				C0EEB28A20FAC40D0017980F /* MetroRouteViewController.swift in Sources */,
+				C0EEB28620FAC40D0017980F /* StationsOnMapViewController.swift in Sources */,
+				C0D8444320EAA36300E43E3A /* Utils.swift in Sources */,
+				C056016520D525980050C373 /* MetroStations.swift in Sources */,
+				C0AABE3420FB9D6B003DA062 /* Time.swift in Sources */,
+				C0EEB28B20FAC40D0017980F /* StationsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C023B4BD20E2C1E600C1D0DB /* translations.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C023B51920E2CA4C00C1D0DB /* en */,
+			);
+			name = translations.strings;
+			sourceTree = "<group>";
+		};
+		C075449920BC76DA007FAEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C075449A20BC76DA007FAEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C075449B20BC76DA007FAEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C075449C20BC76DA007FAEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C035A0B61FE72CF900355029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C035A0B71FE72CF900355029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D RELEASE";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C035A0B91FE72CF900355029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6D53F5CAD69508DE65AA1B /* Pods-JaipurMetro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5ZEXA487Y8;
+				INFOPLIST_FILE = "$(SRCROOT)/JaipurMetro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.jaipurmetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C035A0BA1FE72CF900355029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA33AAC5148E74919B4A789 /* Pods-JaipurMetro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZEXA487Y8;
+				INFOPLIST_FILE = "$(SRCROOT)/JaipurMetro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.jaipurmetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C035A08B1FE72CF800355029 /* Build configuration list for PBXProject "JaipurMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C035A0B61FE72CF900355029 /* Debug */,
+				C035A0B71FE72CF900355029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C035A0B81FE72CF900355029 /* Build configuration list for PBXNativeTarget "JaipurMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C035A0B91FE72CF900355029 /* Debug */,
+				C035A0BA1FE72CF900355029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C035A0881FE72CF800355029 /* Project object */;
+}

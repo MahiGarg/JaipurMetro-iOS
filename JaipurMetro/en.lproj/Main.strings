@@ -1,0 +1,105 @@
+
+/* Class = "UILabel"; text = "In 2 mins"; ObjectID = "1Qg-zQ-dXP"; */
+"1Qg-zQ-dXP.text" = "In 2 mins";
+
+/* Class = "UIButton"; normalTitle = "Station Information"; ObjectID = "2sp-rQ-6cl"; */
+"2sp-rQ-6cl.normalTitle" = "Station Information";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "3DS-lH-YMb"; */
+"3DS-lH-YMb.text" = "Distance";
+
+/* Class = "UIViewController"; title = "Fares"; ObjectID = "6Vf-Q4-qPf"; */
+"6Vf-Q4-qPf.title" = "Fares";
+
+/* Class = "UILabel"; text = "Standard Peak Fare"; ObjectID = "8pH-D2-qsr"; */
+"8pH-D2-qsr.text" = "Standard Peak Fare";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "99m-bg-gM6"; */
+"99m-bg-gM6.text" = "From";
+
+/* Class = "UILabel"; text = "Start of the revenue service to 16:59 Hrs"; ObjectID = "BAb-sP-MQZ"; */
+"BAb-sP-MQZ.text" = "Start of the revenue service to 16:59 Hrs";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "C1h-Bb-Sz2"; */
+"C1h-Bb-Sz2.text" = "To";
+
+/* Class = "UIViewController"; title = "MetroRouteViewController"; ObjectID = "DqZ-h0-5Oj"; */
+"DqZ-h0-5Oj.title" = "MetroRouteViewController";
+
+/* Class = "UIButton"; normalTitle = "Nearest Station to Me"; ObjectID = "FLP-ka-tLS"; */
+"FLP-ka-tLS.normalTitle" = "Nearest Station to Me";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "GJl-IP-y31"; */
+"GJl-IP-y31.text" = "Time";
+
+/* Class = "UILabel"; text = "Rs 10"; ObjectID = "Ja3-hE-UCr"; */
+"Ja3-hE-UCr.text" = "Rs 10";
+
+/* Class = "UILabel"; text = "In 2 mins"; ObjectID = "OKs-nC-TDH"; */
+"OKs-nC-TDH.text" = "In 2 mins";
+
+/* Class = "UITabBarItem"; title = "Fares"; ObjectID = "T9U-br-LOC"; */
+"T9U-br-LOC.title" = "Fares";
+
+/* Class = "UITabBarItem"; title = "Metro Routes"; ObjectID = "U1G-9S-Cga"; */
+"U1G-9S-Cga.title" = "Metro Routes";
+
+/* Class = "UILabel"; text = "Fares"; ObjectID = "UTK-4u-OBp"; */
+"UTK-4u-OBp.text" = "Fares";
+
+/* Class = "UITabBarItem"; title = "Updates"; ObjectID = "Uf9-7U-cBT"; */
+"Uf9-7U-cBT.title" = "Updates";
+
+/* Class = "UILabel"; text = "3 mins"; ObjectID = "WDx-Jc-q0b"; */
+"WDx-Jc-q0b.text" = "3 mins";
+
+/* Class = "UILabel"; text = "17:35"; ObjectID = "WVi-fU-pG6"; */
+"WVi-fU-pG6.text" = "17:35";
+
+/* Class = "UITextField"; text = "Mansarovar"; ObjectID = "YDt-mn-Vjp"; */
+"YDt-mn-Vjp.text" = "Mansarovar";
+
+/* Class = "UILabel"; text = "Vivek Vihar"; ObjectID = "bD6-Ys-aQ7"; */
+"bD6-Ys-aQ7.text" = "Vivek Vihar";
+
+/* Class = "UILabel"; text = "Rs 5"; ObjectID = "ciu-mo-n3D"; */
+"ciu-mo-n3D.text" = "Rs 5";
+
+/* Class = "UILabel"; text = "Standard OffPeak Fare"; ObjectID = "deZ-KC-lJl"; */
+"deZ-KC-lJl.text" = "Standard OffPeak Fare";
+
+/* Class = "UITabBarItem"; title = "More"; ObjectID = "eT6-hS-nhF"; */
+"eT6-hS-nhF.title" = "More";
+
+/* Class = "UITextField"; text = "Mansarovar"; ObjectID = "fHV-b7-23J"; */
+"fHV-b7-23J.text" = "Mansarovar";
+
+/* Class = "UITabBarItem"; title = "Stations"; ObjectID = "fng-Bd-kYF"; */
+"fng-Bd-kYF.title" = "Stations";
+
+/* Class = "UILabel"; text = "Next Trains"; ObjectID = "iE9-S2-dKa"; */
+"iE9-S2-dKa.text" = "Next Trains";
+
+/* Class = "UILabel"; text = "17:35"; ObjectID = "ioe-EP-P5X"; */
+"ioe-EP-P5X.text" = "17:35";
+
+/* Class = "UIButton"; normalTitle = "Metro Route"; ObjectID = "iqz-j6-khZ"; */
+"iqz-j6-khZ.normalTitle" = "Metro Route";
+
+/* Class = "UILabel"; text = "1.75 KM"; ObjectID = "kNH-47-cUG"; */
+"kNH-47-cUG.text" = "1.75 KM";
+
+/* Class = "UIButton"; normalTitle = "Get Fares"; ObjectID = "pME-oE-0ft"; */
+"pME-oE-0ft.normalTitle" = "Get Fares";
+
+/* Class = "UILabel"; text = "17:00 Hrs till last revenue service"; ObjectID = "qJR-xu-PZE"; */
+"qJR-xu-PZE.text" = "17:00 Hrs till last revenue service";
+
+/* Class = "UIButton"; normalTitle = "Metro Updates"; ObjectID = "tPm-Ep-gfe"; */
+"tPm-Ep-gfe.normalTitle" = "Metro Updates";
+
+/* Class = "UILabel"; text = "Stations In Between"; ObjectID = "ufk-Em-B1h"; */
+"ufk-Em-B1h.text" = "Stations In Between";
+
+/* Class = "UIButton"; normalTitle = "Fares"; ObjectID = "yEn-XR-nI5"; */
+"yEn-XR-nI5.normalTitle" = "Fares";
